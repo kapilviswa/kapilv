@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="272px" height="272px" viewBox="0 0 272 272" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>4 colostate</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="2.55899235%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#DDDDDD" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="120" cy="120" r="120"></circle>
+        <filter x="-2.9%" y="-2.1%" width="105.8%" height="105.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-2.5%" y="-1.7%" width="105.0%" height="105.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="98.7902583%" id="linearGradient-6">
+            <stop stop-color="#444444" offset="0%"></stop>
+            <stop stop-color="#222222" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-7" x="0" y="0" width="11.1111111" height="11.1111111"></rect>
+        <rect id="path-8" x="22.2222222" y="0" width="11.1111111" height="11.1111111"></rect>
+        <rect id="path-9" x="0" y="22.2222222" width="11.1111111" height="11.1111111"></rect>
+        <rect id="path-10" x="22.2222222" y="22.2222222" width="11.1111111" height="11.1111111"></rect>
+        <polygon id="path-11" points="0 44.4444444 11.1111111 44.4444444 11.1111111 55.5555556 0 55.5555556"></polygon>
+        <polygon id="path-12" points="22.2222222 44.4444444 33.3333333 44.4444444 33.3333333 55.5555556 22.2222222 55.5555556"></polygon>
+        <polygon id="path-13" points="0 66.6666667 11.1111111 66.6666667 11.1111111 77.7777778 0 77.7777778"></polygon>
+        <polygon id="path-14" points="22.2222222 66.6666667 33.3333333 66.6666667 33.3333333 77.7777778 22.2222222 77.7777778"></polygon>
+        <polygon id="path-15" points="0 88.8888889 11.1111111 88.8888889 11.1111111 100 0 100"></polygon>
+        <polygon id="path-16" points="22.2222222 88.8888889 33.3333333 88.8888889 33.3333333 100 22.2222222 100"></polygon>
+        <polygon id="path-17" points="0 111.111111 11.1111111 111.111111 11.1111111 122.222222 0 122.222222"></polygon>
+        <polygon id="path-18" points="22.2222222 111.111111 33.3333333 111.111111 33.3333333 122.222222 22.2222222 122.222222"></polygon>
+        <polygon id="path-19" points="0 133.333333 11.1111111 133.333333 11.1111111 144.444444 0 144.444444"></polygon>
+        <polygon id="path-20" points="22.2222222 133.333333 33.3333333 133.333333 33.3333333 144.444444 22.2222222 144.444444"></polygon>
+        <polygon id="path-21" points="44.4444444 22.2222222 55.5555556 22.2222222 55.5555556 33.3333333 44.4444444 33.3333333"></polygon>
+        <polygon id="path-22" points="44.4444444 44.4444444 55.5555556 44.4444444 55.5555556 55.5555556 44.4444444 55.5555556"></polygon>
+        <polygon id="path-23" points="66.6666667 44.4444444 77.7777778 44.4444444 77.7777778 55.5555556 66.6666667 55.5555556"></polygon>
+        <polygon id="path-24" points="44.4444444 66.6666667 55.5555556 66.6666667 55.5555556 77.7777778 44.4444444 77.7777778"></polygon>
+        <polygon id="path-25" points="66.6666667 66.6666667 77.7777778 66.6666667 77.7777778 77.7777778 66.6666667 77.7777778"></polygon>
+        <polygon id="path-26" points="44.4444444 88.8888889 55.5555556 88.8888889 55.5555556 100 44.4444444 100"></polygon>
+        <polygon id="path-27" points="66.6666667 88.8888889 77.7777778 88.8888889 77.7777778 100 66.6666667 100"></polygon>
+        <polygon id="path-28" points="44.4444444 111.111111 55.5555556 111.111111 55.5555556 122.222222 44.4444444 122.222222"></polygon>
+        <linearGradient x1="50%" y1="115.957617%" x2="50%" y2="34.5353482%" id="linearGradient-29">
+            <stop stop-color="#9A6AEA" offset="0%"></stop>
+            <stop stop-color="#E570FF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M162.999814,81.541974 C163.088717,39.6339212 131.280519,4.51335363 89.5087119,0.397823054 C47.7369044,-3.71770752 9.66672856,24.5181548 1.54965238,65.6352389 C-6.5674238,106.752323 17.9240223,147.299574 58.1357994,159.317446 L81.6552998,200 L105.1748,159.317446 C139.519376,148.960638 163.012522,117.362021 162.999814,81.541974 Z" id="path-30"></path>
+        <filter x="-4.3%" y="-2.5%" width="108.6%" height="107.0%" filterUnits="objectBoundingBox" id="filter-31">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <ellipse id="path-32" cx="81.5" cy="81.6666667" rx="45.7739726" ry="46.1111111"></ellipse>
+        <filter x="-4.4%" y="-4.3%" width="108.7%" height="108.7%" filterUnits="objectBoundingBox" id="filter-33">
+            <feGaussianBlur stdDeviation="2.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="3" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy">
+            <g id="logo-(200x100-max)" transform="translate(16.000000, 16.000000)">
+                <g id="icon">
+                    <g>
+                        <g id="bg">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <g id="Mask">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                <use fill="#1E1E1E" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-2"></use>
+                            </g>
+                            <g id="shapes" mask="url(#mask-3)">
+                                <g transform="translate(30.339130, -63.521739)"></g>
+                            </g>
+                        </g>
+                        <g id="Group" transform="translate(122.222222, 48.888889)">
+                            <g id="Rectangle">
+                                <use fill="url(#linearGradient-6)" xlink:href="#path-7"></use>
+                                <use fill="#111112" xlink:href="#path-7"></use>
+                            </g>
+                            <g id="Path">
+                                <use fill="url(#linearGradient-6)" xlink:href="#path-8"></use>
+                                <use fill="#111112" xlink:href="#path-8"></use>
+                            </g>
+                            <g id="Path">
+                                <use fill="url(#linearGradient-6)" xlink:href="#path-9"></use>
+                                <use fill="#111112" xlink:href="#path-9"></use>
+                            </g>
+                            <g id="Path">
+                                <use fill="url(#linearGradient-6)" xlink:href="#path-10"></use>
+                                <use fill="#111112" xlink:href="#path-10"></use>
+                            </g>
+                            <g id="Path">
+                                <use fill="url(#linearGradient-6)" xlink:href="#path-11"></use>
+                                <use fill="#111112" xlink:href="#path-11"></use>
+                            </g>
+                            <g id="Path">
+                                <use fill="url(#linearGradient-6)" xlink:href="#path-12"></use>
+                                <use fill="#111112" xlink:href="#path-12"></use>
+                            </g>
+                            <g id="Path">
+                                <use fill="url(#linearGradient-6)" xlink:href="#path-13"></use>
+                                <use fill="#111112" xlink:href="#path-13"></use>
+                            </g>
+                            <g id="Path">
+                                <use fill="url(#linearGradient-6)" xlink:href="#path-14"></use>
+                                <use fill="#111112" xlink:href="#path-14"></use>
+                            </g>
+                            <g id="Path">
+                                <use fill="url(#linearGradient-6)" xlink:href="#path-15"></use>
+                                <use fill="#111112" xlink:href="#path-15"></use>
+                            </g>
+                            <g id="Path">
+                                <use fill="url(#linearGradient-6)" xlink:href="#path-16"></use>
+                                <use fill="#111112" xlink:href="#path-16"></use>
+                            </g>
+                            <g id="Path">
+                                <use fill="url(#linearGradient-6)" xlink:href="#path-17"></use>
+                                <use fill="#111112" xlink:href="#path-17"></use>
+                            </g>
+                            <g id="Path">
+                                <use fill="url(#linearGradient-6)" xlink:href="#path-18"></use>
+                                <use fill="#111112" xlink:href="#path-18"></use>
+                            </g>
+                            <g id="Path">
+                                <use fill="url(#linearGradient-6)" xlink:href="#path-19"></use>
+                                <use fill="#111112" xlink:href="#path-19"></use>
+                            </g>
+                            <g id="Path">
+                                <use fill="url(#linearGradient-6)" xlink:href="#path-20"></use>
+                                <use fill="#111112" xlink:href="#path-20"></use>
+                            </g>
+                            <g id="Path">
+                                <use fill="url(#linearGradient-6)" xlink:href="#path-21"></use>
+                                <use fill="#111112" xlink:href="#path-21"></use>
+                            </g>
+                            <g id="Path">
+                                <use fill="url(#linearGradient-6)" xlink:href="#path-22"></use>
+                                <use fill="#111112" xlink:href="#path-22"></use>
+                            </g>
+                            <g id="Path-Copy-2">
+                                <use fill="url(#linearGradient-6)" xlink:href="#path-23"></use>
+                                <use fill="#111112" xlink:href="#path-23"></use>
+                            </g>
+                            <g id="Path">
+                                <use fill="url(#linearGradient-6)" xlink:href="#path-24"></use>
+                                <use fill="#111112" xlink:href="#path-24"></use>
+                            </g>
+                            <g id="Path-Copy-3">
+                                <use fill="url(#linearGradient-6)" xlink:href="#path-25"></use>
+                                <use fill="#111112" xlink:href="#path-25"></use>
+                            </g>
+                            <g id="Path">
+                                <use fill="url(#linearGradient-6)" xlink:href="#path-26"></use>
+                                <use fill="#111112" xlink:href="#path-26"></use>
+                            </g>
+                            <g id="Path-Copy-4">
+                                <use fill="url(#linearGradient-6)" xlink:href="#path-27"></use>
+                                <use fill="#111112" xlink:href="#path-27"></use>
+                            </g>
+                            <g id="Path">
+                                <use fill="url(#linearGradient-6)" xlink:href="#path-28"></use>
+                                <use fill="#111112" xlink:href="#path-28"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-2" transform="translate(55.000000, 52.000000)" fill-rule="nonzero">
+                <g id="Shape">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-31)" xlink:href="#path-30"></use>
+                    <use fill="url(#linearGradient-29)" xlink:href="#path-30"></use>
+                </g>
+                <g id="Oval">
+                    <use fill="#1E1E1E" xlink:href="#path-32"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-33)" xlink:href="#path-32"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
