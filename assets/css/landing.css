@@ -10,7 +10,6 @@ canvas {
 #particles-js {
   position: absolute;
   width: 100%;
-  height: 100%;
 }
 
 /*
@@ -45,11 +44,11 @@ canvas {
   top: 0;
 
 }
-.bar-ford{
+.bar-hopscotch{
   background: #003478;
 }
 .bar-calmanac{
-  background: #s;
+  background: #333;
 }
 .bar-contrast{
   background: #B058D2;
@@ -108,4 +107,18 @@ figure.boxscreenshot img{
 #precious-banner{
   display: block;
   margin: 0 auto;
+}
+
+.text{
+  font-family:'open sans', sans-serif, Helvetica, Arial;
+  font-weight:400;
+}
+
+.text-anton h2, .Anton{
+  font-family: 'Anton', sans-serif, Helvetica, Arial;
+  font-size: 1.6em;
+}
+
+.cent{
+  text-align: center;
 }

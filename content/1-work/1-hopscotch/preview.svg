@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="272px" height="272px" viewBox="0 0 272 272" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard Copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4C82BB" offset="0%"></stop>
+            <stop stop-color="#1A1A1B" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="120" cy="120" r="120"></circle>
+        <filter x="-2.9%" y="-2.1%" width="105.8%" height="105.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="41.4014623%" y1="6.28087673%" x2="74.652123%" y2="56.8415906%" id="linearGradient-5">
+            <stop stop-color="#09E0A7" offset="0%"></stop>
+            <stop stop-color="#43A9BF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M96,16 C65.04,16 40,41.04 40,72 C40,105.36 75.36,151.36 89.92,168.88 C93.12,172.72 98.96,172.72 102.16,168.88 C116.64,151.36 152,105.36 152,72 C152,41.04 126.96,16 96,16 Z M96,92 C84.96,92 76,83.04 76,72 C76,60.96 84.96,52 96,52 C107.04,52 116,60.96 116,72 C116,83.04 107.04,92 96,92 Z" id="path-6"></path>
+        <filter x="-25.0%" y="-12.8%" width="150.0%" height="136.0%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-3">
+            <g id="Group-4" transform="translate(16.000000, 16.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="Mask">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <g id="Group-2" opacity="0.323816" mask="url(#mask-3)" fill="#1F2329">
+                    <g transform="translate(237.000000, 127.500000) rotate(45.000000) translate(-237.000000, -127.500000) translate(-63.000000, -78.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="600" height="3"></rect>
+                        <rect id="Rectangle-Copy" x="0" y="51" width="600" height="3"></rect>
+                        <rect id="Rectangle-Copy-2" x="0" y="102" width="600" height="3"></rect>
+                        <rect id="Rectangle-Copy-3" x="0" y="153" width="600" height="3"></rect>
+                        <rect id="Rectangle-Copy-4" x="0" y="204" width="600" height="3"></rect>
+                        <rect id="Rectangle-Copy-5" x="0" y="255" width="600" height="3"></rect>
+                        <rect id="Rectangle-Copy-6" x="0" y="306" width="600" height="3"></rect>
+                        <rect id="Rectangle-Copy-7" x="0" y="357" width="600" height="3"></rect>
+                        <rect id="Rectangle-Copy-8" x="0" y="408" width="600" height="3"></rect>
+                    </g>
+                </g>
+                <g id="Group-2" opacity="0.323816" mask="url(#mask-3)" fill="#1F2329">
+                    <g transform="translate(222.442478, 126.442478) rotate(-45.000000) translate(-222.442478, -126.442478) translate(-77.557522, -79.057522)">
+                        <rect id="Rectangle" x="0" y="0" width="600" height="3"></rect>
+                        <rect id="Rectangle-Copy" x="0" y="51" width="600" height="3"></rect>
+                        <rect id="Rectangle-Copy-2" x="0" y="102" width="600" height="3"></rect>
+                        <rect id="Rectangle-Copy-3" x="0" y="153" width="600" height="3"></rect>
+                        <rect id="Rectangle-Copy-4" x="0" y="204" width="600" height="3"></rect>
+                        <rect id="Rectangle-Copy-5" x="0" y="255" width="600" height="3"></rect>
+                        <rect id="Rectangle-Copy-6" x="0" y="306" width="600" height="3"></rect>
+                        <rect id="Rectangle-Copy-7" x="0" y="357" width="600" height="3"></rect>
+                        <rect id="Rectangle-Copy-8" x="0" y="408" width="600" height="3"></rect>
+                    </g>
+                </g>
+                <g id="round-place-24px" mask="url(#mask-3)">
+                    <g transform="translate(24.000000, 24.000000)">
+                        <polygon id="Path" points="0 0 192 0 192 192 0 192"></polygon>
+                        <g id="Shape" fill-rule="nonzero">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                            <use fill="url(#linearGradient-5)" xlink:href="#path-6"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

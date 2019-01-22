@@ -255,7 +255,7 @@ a{
     }
 }
 .wrapper{
-    max-width:calc(700px + (1.6rem*2))
+    max-width:calc(700px + (8.0rem*2))
 }
 .wrapper-wide{
     max-width:calc(1100px + (1.6rem*2))
@@ -419,9 +419,9 @@ img{
 .header .nav a.active:after{
     content:'';
     background:#FF5A5A;
-    width:4px;
+    width:100%;
     height:4px;
-    border-radius:100%;
+    border-radius:8px;
     display:block;
     position:absolute;
     left:50%;
@@ -578,9 +578,7 @@ body:not(.page-about) .header-with-hero .nav a.active:after,body:not(.page-about
     box-shadow:inset 0 0 0 2px rgba(0,0,0,0.1);
     color:rgba(0,0,0,0.6)
 }
-.page-home .header{
-    box-shadow:0 1px 0 rgba(0,0,0,0.1)
-}
+
 .page-home .home-title{
     margin-right:-10px;
 }
@@ -607,7 +605,7 @@ body:not(.page-about) .header-with-hero .nav a.active:after,body:not(.page-about
     }
 }
 .page-home .title-with-icons{
-    padding:12.5em 0 5.5em 0;
+    padding:4em 0 6em 0;
     text-align:center;
     font-size:1.1em;
     overflow:hidden;
@@ -846,12 +844,11 @@ body:not(.page-about) .header-with-hero .nav a.active:after,body:not(.page-about
 .project-preview{
     color:#fff;
     background:#272B43;
-    text-align:center;
     padding:1.6rem;
     text-shadow:1px 2px 0 rgba(0,0,0,0.1);
-    border-radius:8px;
-    margin-bottom:1.6rem;
-    text-align:center;
+    border-radius:24px;
+    margin-bottom:5.6rem;
+    text-align:left;
     display:block
 }
 
@@ -862,7 +859,13 @@ body:not(.page-about) .header-with-hero .nav a.active:after,body:not(.page-about
         display:flex;
         -webkit-box-align:center;
         -ms-flex-align:center;
-        align-items:center
+        align-items:center;
+    }
+}
+@media only screen and (max-width: 600px){
+    .project-preview{
+      text-align:center;
+
     }
 }
 .project-preview:hover .project-button{
@@ -873,7 +876,8 @@ body:not(.page-about) .header-with-hero .nav a.active:after,body:not(.page-about
 .project-preview-content{
     -webkit-box-flex:1;
     -ms-flex-positive:1;
-    flex-grow:1
+    flex-grow:1;
+    margin-left: 2rem;
 }
 .project-banner{
     pointer-events:none;
@@ -997,8 +1001,8 @@ figure.browser-screenshot:after{
 }
 figure.browser-screenshot img{
     background:#E9EAF0;
-    background-image:-webkit-linear-gradient(top, #F6F8F9, #E9EAF0);
-    background-image:linear-gradient(to bottom, #F6F8F9, #E9EAF0);
+    background-image:-webkit-linear-gradient(top, #fff, #E9EAF0);
+    background-image:linear-gradient(to bottom, #fff, #E9EAF0);
     background-repeat:no-repeat;
     background-size:100% 40px;
     border-radius:6px;
@@ -1076,7 +1080,7 @@ figure.browser-screenshot img{
     transform:translateY(-50%)
 }
 .end-of-casestudy{
-    background:#F6F8F9;
+    background:#fff;
     text-align:center;
     margin:3.2rem 0;
     padding:3.2rem 0
@@ -1090,11 +1094,11 @@ figure.browser-screenshot img{
     margin-top:.8rem;
     margin-bottom:0
 }
-.page-contrast .wrapper-wide,.page-ford .wrapper-wide,.page-colostate .wrapper-wide{
+.page-contrast .wrapper-wide,.page-hopscotch .wrapper-wide,.page-colostate .wrapper-wide{
     max-width:calc(900px + (1.6rem*2))
 }
 
-.page-colostate .content, .page-ford .content,.page-contrast .content{
+.page-colostate .content, .page-hopscotch .content,.page-contrast .content{
     padding-top:0
 }
 .page-contrast .iphone{
@@ -1282,12 +1286,20 @@ ul.timeline-list li:not(:first-child):before{
     box-shadow:0 0 0 4px #FF5A5A,0 0 0 12px rgba(255,90,90,0.2);
     border-color:#fff
 }
-.page-ford .header-with-hero,.page-ford .projects-dropdown-menu a:hover{
+.page-hopscotch .header-with-hero,.page-hopscotch .projects-dropdown-menu a:hover{
+    background:#58B9F8
+}
+.page-hopscotch .tooltip,.page-hopscotch .hero-arrow:hover{
+    color:#58B9F8
+}
+
+.page-cot .header-with-hero,.page-cot .projects-dropdown-menu a:hover{
     background:#56C3E3
 }
-.page-ford .tooltip,.page-ford .hero-arrow:hover{
+.page-cot .tooltip,.page-cot .hero-arrow:hover{
     color:#56C3E3
 }
+
 .page-calmanac .header-with-hero,.page-calmanac .projects-dropdown-menu a:hover{
     background:#F8D755
 }
@@ -1295,33 +1307,41 @@ ul.timeline-list li:not(:first-child):before{
     color:#F8D755
 }
 .page-precious .header-with-hero,.page-precious .projects-dropdown-menu a:hover{
-    background:#FF5577
+    background:#F0C248
 }
 .page-precious .tooltip,.page-precious .hero-arrow:hover{
-    color:#FF5577
+    color:#F0C248
 }
 .page-contrast .header-with-hero,.page-contrast .projects-dropdown-menu a:hover{
-    background:#E194FF
+    background:#985DF6
 }
 .page-constrast .tooltip,.page-contrast .hero-arrow:hover{
-    color:#E194FF
+    color:#985DF6
 }
 .page-colostate .header-with-hero,.page-colostate .projects-dropdown-menu a:hover{
-    background:#C8C372
+    background:#004C23
 }
 .page-colostate .tooltip,.page-colostate .hero-arrow:hover{
-    color:#C8C372
+    color:#004C23
 }
 
 .page-about .header-with-hero{
-    background:#F6F8F9
+    background:#fff
 }
-.project-preview.ford{
-    background:#56C3E3
+.project-preview.hopscotch{
+    background:#053F86
 }
-.project-preview.ford:hover .project-button{
-    color:#56C3E3
+.project-preview.hopscotch:hover .project-button{
+    color:#053F86
 }
+
+.project-preview.cot{
+    background:#425968
+}
+.project-preview.cot:hover .project-button{
+    color:#425968
+}
+
 .project-preview.calmanac{
     background:#F8D755
 }
@@ -1329,16 +1349,16 @@ ul.timeline-list li:not(:first-child):before{
     color:#F8D755
 }
 .project-preview.precious{
-    background:#FF5577
+    background:#F0C248
 }
 .project-preview.precious:hover .project-button{
-    color:#FF5577
+    color:#F0C248
 }
 .project-preview.contrast{
-    background:#E194FF
+    background:#985DF6
 }
 .project-preview.contrast:hover .project-button{
-    color:#E194FF
+    color:#985DF6
 }
 .project-preview.contrast-black{
     background:#000
@@ -1347,10 +1367,10 @@ ul.timeline-list li:not(:first-child):before{
     color:#000
 }
 .project-preview.colostate{
-    background:#C8C372
+    background:#004C23
 }
 .project-preview.colostate:hover .project-button{
-    color:#C8C372
+    color:#004C23
 }
 
 .header-color{
