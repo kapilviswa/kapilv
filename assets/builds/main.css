@@ -4007,8 +4007,12 @@ body[data-darkmode=true] .home-project .project-logo .svg-logo path {
 
     .case_studies{
 
-        font-size: 1.1rem;
-        letter-spacing: 0.03rem;
+        font-size: 1.5rem;
+        margin-left: auto;
+        max-width: 200px;
+
+        margin-right: auto;  
+             letter-spacing: 0.03rem;
         
     }
     
@@ -4047,6 +4051,10 @@ body[data-darkmode=true] .home-project .project-logo .svg-logo path {
         padding-right: 3em;
     }
     .case_studies{
+        margin-left: auto;
+        max-width: 200px;
+
+        margin-right: auto;   
 
         font-size: 1.5rem;
         letter-spacing: 0.03rem;
@@ -4104,6 +4112,9 @@ body[data-darkmode=true] .home-project .project-logo .svg-logo path {
         padding-right: 6rem;
     }
     .case_studies{
+        max-width: 800px;
+
+        margin-right: auto; 
         font-size: 1.7rem;
         letter-spacing: 0.03rem;
         
